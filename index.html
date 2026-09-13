@@ -94,18 +94,45 @@
                 </div>
               </div>
 
-              <div class="item__content">
-                <div class="item__details">
-                  <h3 class="item__title">🍌 Banana Milk Latte</h3>
-                  <p class="item__description">
-                    Sweet banana milk poured over your choice of roasted tea or
-                    coffee. It's goofy, it's thick, and it's honestly a little
-                    unhinged. You'll love it.
-                  </p>
-                  <p class="item__price">$5.00</p>
+              <div class="item__content item__content--has-dropdown">
+                <div class="item__content-dropdown-wrapper">
+                  <div class="item__details">
+                    <h3 class="item__title">🍌 Banana Milk Latte</h3>
+                    <p class="item__description">
+                      Sweet banana milk poured over your choice of roasted tea
+                      or coffee. It's goofy, it's thick, and it's honestly a
+                      little unhinged. You'll love it.
+                    </p>
+                    <p class="item__price">$5.00</p>
+                  </div>
+                  <div class="item__action">
+                    <button class="item__add-btn">Add</button>
+                  </div>
                 </div>
-                <div class="item__action">
-                  <button class="item__add-btn">Add</button>
+                <hr class="item__divider" />
+                <div class="item__dropdown-panel" style="display: none">
+                  <h4 class="item__dropdown-title">Choose your base:</h4>
+                  <div class="item__options-group">
+                    <label class="item__option">
+                      <input
+                        type="radio"
+                        name="banana-milk-base"
+                        value="hojicha"
+                      />
+
+                      <span class="item__pill-label">with Hojicha</span>
+                    </label>
+                    <label class="item__option">
+                      <input
+                        type="radio"
+                        name="banana-milk-base"
+                        value="coffee"
+                        checked
+                      />
+
+                      <span class="item__pill-label">with Coffee</span>
+                    </label>
+                  </div>
                 </div>
               </div>
 
